@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+PyQt5
+pandas
+axios
+# 32비트 Windows 환경 필수 설치 항목
+# Kiwoom Open API (OCX)

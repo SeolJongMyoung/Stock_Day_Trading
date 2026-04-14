@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-navy: #011627;
+  --color-brand-gold: #C5A059;
+  --color-brand-accent: #00D1FF;
+  --color-brand-risk: #FF4136;
+  --color-brand-safe: #2ECC40;
+}
+
+body {
+  margin: 0;
+  background-color: #011627;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.glow-gold {
+  box-shadow: 0 0 20px rgba(197, 160, 89, 0.3);
+}
+
+.gradient-bg {
+  background: radial-gradient(circle at top right, #011627 0%, #0a2540 100%);
+}
